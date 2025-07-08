@@ -1,0 +1,33 @@
+body{
+    max-width: 1100px;
+    background-color:cornsilk;
+    margin: 0 auto;
+}
+.card-section{
+    text-align: center;
+}
+.card-container{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.card{
+    width: 300px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.233);
+    text-align: left;
+}
+.card:hover{
+    background-color: white;
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+button{
+    background-color: #FDDF58;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
